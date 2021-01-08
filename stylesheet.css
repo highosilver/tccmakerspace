@@ -3,7 +3,7 @@ a {
     color: white;
 }
 a:hover {
-    color:blue;
+    color:#b8b8b8;
 }
 .tccmakerspace{
     background-color: hsl(205, 42%, 39%);
