@@ -10,9 +10,12 @@ a:hover {
     padding: 20px;
 }
 #catchphrase {
+    padding-top: 5px;
     margin-top: -5px;
     font-size: 20px;
     font-weight: 200;
+    font-family: arial;
+    color: white;
     
 }
 #tccmakerspace {
