@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+html, body {
+    height: 100%;
+}
+
 a {
     color: white;
 }
@@ -22,4 +27,12 @@ a:hover {
 #tccmakerspace {
     font-size: 50px;
     font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: hsl(205, 42%, 39%);
+    padding: 20px;
+    width: 100%;
 }
