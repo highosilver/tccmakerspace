@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&display=swap");
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 body {
     background-color: hsl(201, 46%, 38%);
@@ -22,3 +23,7 @@ body {
     margin-top: -50px;
     font-family: "Big Shoulders Stencil Text"
 }
+img {
+    max-width: 100%;
+    height: auto;
+  }
