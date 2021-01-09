@@ -6,8 +6,8 @@ a:hover {
     color:blue;
 }
 .tccmakerspace{
-    background-color: hsl(205, 42%, 39%);
-    padding: 20px;
+    background-color: hsl(196, 64%, 24%);
+    padding-top: -10px;
 }
 #catchphrase {
     margin-top: -5px;
@@ -18,4 +18,7 @@ a:hover {
 #tccmakerspace {
     font-size: 50px;
     font-family: 'Big Shoulders Stencil Text', cursive;
+}
+#logo {
+    padding-left: 500px;
 }
