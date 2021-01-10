@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&display=swap");
+a {
+    color: white;
+}
+a:hover {
+    color:blue;
+}
+.tccmakerspace{
+    background-color: hsl(196, 64%, 24%);
+    padding-top: -10px;
+}
+#catchphrase {
+    margin-top: -5px;
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+#tccmakerspace {
+    font-size: 50px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+#'logo {
+  '  padding-left: 500px;
+}
