@@ -82,6 +82,7 @@ a:hover {
   background: -o-linear-gradient(#749d9e, #b3a68b)!important; 
   background: -moz-linear-gradient(#749d9e, #b3a68b)!important; 
   background: linear-gradient(#749d9e, #b3a68b)!important;
+  position:  relative !important;
 }
 
 .jzdcalt {
