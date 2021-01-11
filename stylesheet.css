@@ -149,6 +149,6 @@ div[data-title]:hover:after {
 @media screen and (max-width: 1785px) {
   .caledar {
     margin-top: 400px;
-    margin-left: 700px;
+    margin-left: 0 !important;
   }
 }
