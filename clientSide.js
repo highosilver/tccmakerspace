@@ -12,6 +12,7 @@
 
         items[totalItems - 1].classList.add("prev")
         items[0].classList.add("active")
+        items[1].classList.add("next")
     }
 
     // Set event listeners
