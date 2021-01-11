@@ -152,7 +152,4 @@ div[data-title]:hover:after {
     margin-left: 0 !important;
     width: auto;
   }
-  .cal {
-    width: auto;
-  }
 }
