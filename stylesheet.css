@@ -71,7 +71,8 @@ a:hover {
     height:400px;
   }
   HTML CSSResult Skip Results Iframe
-/* Caledar */
+
+  /* Caledar */
 
 .jzdcal {
   padding:0 10px 10px 10px; 
@@ -149,4 +150,10 @@ div[data-title]:hover:after {
   .caledar {
     display: none;
   }
+}
+.eventschedule {
+  margin-top: -430px;
+  padding-left: 45px;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  color:hsl(205, 50%, 21%)
 }
