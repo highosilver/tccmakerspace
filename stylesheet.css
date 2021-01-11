@@ -146,14 +146,18 @@ div[data-title]:hover:after {
   min-width:150px; 
   max-width:150px;
 }
-@media screen and (max-width: 1785px) {
-  .caledar {
-    display: none;
-  }
-}
+
 .eventschedule {
   margin-top: -430px;
   padding-left: 45px;
   font-family: 'Big Shoulders Stencil Text', cursive;
   color:hsl(205, 50%, 21%)
+}
+@media screen and (max-width: 1785px) {
+  .caledar {
+    display: none;
+  }
+  .eventschedule {
+    display: none;
+  }
 }
