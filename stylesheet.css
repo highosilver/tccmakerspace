@@ -146,7 +146,7 @@ div[data-title]:hover:after {
   min-width:150px; 
   max-width:150px;
 }
-
-
-
-Resources1× 0.5× 0.25×Rerun
+@media (min-width: 320px) and (max-width: 750px){
+  .cal { right: 0; }
+  .IdeathonRightTitle { left: 0; top: 67px; }
+  }
