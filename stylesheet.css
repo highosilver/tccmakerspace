@@ -4,15 +4,8 @@
 html, body {
     height: 100%;
 }
-
-a {
-    color: white;
-}
-a:hover {
-    color:#b8b8b8;
-}
-.tccmakerspace{
-    background-color: hsl(205, 42%, 39%);
+.tccmakerspacetop{
+    background-color: hsl(205, 42%, 39%); 
     padding: 20px;
 }
 #catchphrase {
@@ -25,10 +18,13 @@ a:hover {
     
 }
 #tccmakerspace {
+    color: white;
     font-size: 50px;
     font-family: 'Big Shoulders Stencil Text', cursive;
 }
-
+#tccmakerspace:hover {
+    color:#b8b8b8;
+}
 footer {
     position: fixed;
     bottom: 0;
@@ -39,13 +35,20 @@ footer {
 #logo {
   padding-left: 200px;
 }
-#about {
-    color: black;
-    padding-top: 30px;
-}
+
 #minilogo {
     padding-top: -10px;
     margin-top: -25px;
     margin-right: -10px;
     margin-left: -5px;
+}
+.topmenu {
+    background-color: hsl(191,34%,39%);
+    color: white !important;
+    font-size: 30px;
+    padding-left: 2px;
+    margin-bottom: -20px;
+}
+a:hover {
+    color: #b8b8b8;
 }
