@@ -30,9 +30,17 @@ footer {
     position: fixed;
     bottom: 0;
     background-color: hsl(205, 42%, 39%);
-    padding: 20px;
+    padding: 10px;
     width: 100%;
 }
+
+footer p {
+  text-align: center;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  font-size: 24px;
+  color: hsl(199, 56%, 60%);
+}
+
 #logo {
   padding-left: 200px;
 }
