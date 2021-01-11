@@ -12,6 +12,7 @@ html, body {
     font-family: 'Goldman', cursive;
     padding-top: 5px;
     margin-top: -5px;
+    margin-bottom: -20px;
     font-size: 20px;
     font-weight: 200;
     color: white;
@@ -45,7 +46,7 @@ footer {
 .topmenu {
     font-family: 'Goldman', cursive;
     background-color: hsl(205, 42%, 39%);
-    color: white !important;
+    color: hsl(199, 56%, 60%);
     font-size: 30px;
     padding-left: 2px;
     margin-bottom: -20px;
