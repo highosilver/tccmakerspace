@@ -148,5 +148,5 @@ div[data-title]:hover:after {
 }
 @media (min-width: 320px) and (max-width: 750px){
   .cal { right: 0; }
-  .IdeathonRightTitle { left: 0; top: 67px; }
+  .container { left: 0; top: 67px; }
   }
