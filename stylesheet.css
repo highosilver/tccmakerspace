@@ -43,6 +43,7 @@ footer {
     margin-left: -5px;
 }
 .topmenu {
+    font-family: 'Goldman', cursive;
     background-color: hsl(191,34%,39%);
     color: white !important;
     font-size: 30px;
