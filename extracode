@@ -1,0 +1,74 @@
+## CSS saved for mobile impimentation###
+.topnav {
+    overflow: hidden;
+    background-color: hsl(205, 42%, 39%);
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color:  hsl(205, 42%, 39%);
+}
+
+
+##HTML saved for mobile
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+    <img src="favicon.ico" class="active" alt="Makerspace logo" style="width: 50px; height: 50px;"></img>
+    <a id="tccmakerspace" href="http://tccmakerspace.org">TCC Maker Space</a>
+    <p id="catchphrase">Blending imagination and reality</p>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="tccmakerspace.org/about">About</a>
+      <a href="tccmakerspace.org/contact">Contact</a>
+      <a href="tccmakerspace.org/events">Events</a>
+      <a hred="tccmakerspace.org/Blog">Blog</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>-->
+
+  
+###Java for mobile 
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+ 
