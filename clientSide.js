@@ -17,7 +17,7 @@
     // Set event listeners
     function setEventListeners() {
         var next = d.getElementsByClassName('carousel__button--next')[0],
-            prev = d.getElementsByClassName('carousel__button--prev')
+            prev = d.getElementsByClassName('carousel__button--prev')[0]
 
     next.addEventListener('click', moveNext)
     prev.addEventListener('click', movePrev)
