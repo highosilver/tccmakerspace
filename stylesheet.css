@@ -4,28 +4,54 @@
 html, body {
     height: 100%;
 }
+/* top bar, logo, and catchphrase */
 .tccmakerspacetop{
+    height: 125px;
     background-color: hsl(205, 42%, 39%); 
-    padding: 20px;
 }
 #catchphrase {
+    position: relative;
+    left: 40px; 
+    top: 55px;
     font-family: 'Goldman', cursive;
     padding-top: 5px;
-    margin-top: -5px;
-    margin-bottom: -20px;
     font-size: 20px;
     font-weight: 200;
     color: white;
-    
-}
+  }
 #tccmakerspace {
-    color: white;
+    position: absolute;
+    left: 50px;
     font-size: 50px;
     font-family: 'Big Shoulders Stencil Text', cursive;
+    color: white;
 }
 #tccmakerspace:hover {
     color:#b8b8b8;
 }
+#minilogo {
+  position: absolute;
+  left: 5px;
+  top: 15px;  
+}
+/* Nav Menu */
+ul {
+  position: relative;
+  top: 40px;
+  left: 5px;
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  font-family: 'Goldman', cursive;
+  display: inline-block;
+  font-size: 30px;
+  color: hsl(199, 56%, 60%);
+}
+li:hover {
+  color: #b8b8b8;
+}
+/* Footer */
 footer {
     position: fixed;
     bottom: 0;
@@ -40,31 +66,12 @@ footer p {
   font-size: 24px;
   color: hsl(199, 56%, 60%);
 }
-
-#logo {
-  padding-left: 200px;
-}
-
-#minilogo {
-    padding-top: -10px;
-    margin-top: -25px;
-    margin-right: -10px;
-    margin-left: -5px;
-}
-.topmenu {
-    font-family: 'Goldman', cursive;
-    background-color: hsl(205, 42%, 39%);
-    color: hsl(199, 56%, 60%);
-    font-size: 30px;
-    padding-left: 2px;
-    margin-bottom: -20px;
-}
-a:hover {
-    color: #b8b8b8;
-}
-
+/* image carousel */
 .container {
-  padding-top: 50px;
+  margin: 0px;
+  position: relative;
+  top: 20px;
+  left: 300px;
 }
 .carousel-inner > .item > img {
     width:640px;
@@ -72,92 +79,4 @@ a:hover {
   }
   HTML CSSResult Skip Results Iframe
 
-  /* Caledar */
-
-.jzdcal {
-  padding:0 10px 10px 10px; 
-  box-sizing:border-box!important; 
-  background:#749d9e; 
-  background: -webkit-linear-gradient(#749d9e, #b3a68b)!important; 
-  background: -o-linear-gradient(#749d9e, #b3a68b)!important; 
-  background: -moz-linear-gradient(#749d9e, #b3a68b)!important; 
-  background: linear-gradient(#749d9e, #b3a68b)!important;
-  position:  relative !important;
-}
-
-.jzdcalt {
-  font:18px 'Roboto'; 
-  font-weight:700; 
-  color:#f7f3eb; 
-  display:block; 
-  margin:18px 0 0 0; 
-  text-transform:uppercase; 
-  text-align:center; 
-  letter-spacing:1px;
-}
-.cal {
-    width:300px; 
-    background:#332f2e; 
-    border-radius:5px; 
-    overflow:hidden; 
-    display:block; 
-    margin-bottom:10px; 
-    box-shadow:0 0 10px #201d1c; 
-    margin-left: 20px; 
-    margin-top: -370px;
-    
-  }
-.jzdcal span {
-  font:11px 'Roboto'; 
-  font-weight:400; 
-  color:#f7f3eb; 
-  text-align:center; 
-  width:42px; 
-  height:42px; 
-  display:inline-block; 
-  float:left; 
-  overflow:hidden; 
-  line-height:40px;
-}
-
-.jzdcal .jzdb:before {
-  opacity:0.3; 
-  content:'o';
-}
-
-.circle {
-  border:1px solid #f7f3eb; 
-  box-sizing:border-box!important; 
-  border-radius:50px!important;
-}
-
-span[data-title]:hover:after, 
-div[data-title]:hover:after {
-  font:11px 'Roboto'; 
-  font-weight:400; 
-  content:attr(data-title); 
-  position:absolute; 
-  margin:0 0 100px; 
-  background:#282423; 
-  border:1px solid #f7f3eb; 
-  color:#f7f3eb; 
-  padding:5px; 
-  z-index:9999; 
-  min-width:150px; 
-  max-width:150px;
-}
-
-.eventschedule {
-  margin-top: -430px;
-  padding-left: 45px;
-  font-family: 'Big Shoulders Stencil Text', cursive;
-  color:hsl(205, 50%, 21%)
-}
-@media screen and (max-width: 1785px) {
-  .caledar {
-    display: none;
-  }
-  .eventschedule {
-    display: none;
-  }
-}
+/* mobile */
