@@ -51,9 +51,24 @@ li {
 li:hover {
   color: #b8b8b8;
 }
+/* COVID notice */
+.covid {
+  font-size: 20px;
+  height: 40px;
+  position: relative;
+  top: 25px;
+  color: white;
+  background-color: red;
+}
+.covid p {
+  position: relative;
+  top: 8px;
+  left: 30px;
+}
 /* Footer */
 footer {
     position: fixed;
+    right: 0;
     bottom: 0;
     background-color: hsl(205, 42%, 39%);
     padding: 10px;
@@ -70,7 +85,7 @@ footer p {
 .container {
   margin: 0px;
   position: relative;
-  top: 20px;
+  top: 40px;
   left: 300px;
 }
 .carousel-inner > .item > img {
