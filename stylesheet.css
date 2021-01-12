@@ -46,7 +46,7 @@ li {
   font-family: 'Goldman', cursive;
   display: inline-block;
   font-size: 30px;
-  color: hsl(199, 56%, 60%);
+  color: hsl(199, 56%, 60%) !important;
 }
 li:hover {
   color: #b8b8b8;
@@ -83,7 +83,6 @@ footer p {
 }
 /* image carousel */
 .container {
-  margin: 0px;
   position: relative;
   top: 40px;
   left: 300px;
