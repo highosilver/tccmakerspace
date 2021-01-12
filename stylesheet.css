@@ -1,8 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 
-html, body {
-    height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body, form {
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+header {
+  height: 125px;
+}
+/* .wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -50px; 
+}
+*/
+.content {
+  min-height: calc(100vh - 175px);
+  /* 80px header + 40px footer = 120px  */
+}
+#content {
+  padding-bottom: 100px;
 }
 /* top bar, logo, and catchphrase */
 .tccmakerspacetop{
@@ -66,15 +89,26 @@ li:hover {
 .covid p {
   position: relative;
   top: 8px;
-  left: 30px;
+  left: 500px;
+}
+#tcclink {
+  color: hsl(199, 58%, 58%);
+  padding-bottom: 5px;
 }
 /* Footer */
+/* .footer, .push {
+  height: 50px; 
+  padding: -10px;
+}
+*/
 footer {
+    height: 50px;
     position: absolute;
     right: 0;
     bottom: 0;
     background-color: hsl(205, 42%, 39%);
     padding: 10px;
+    margin-top: 10px;
     width: 100%;
 }
 
@@ -84,6 +118,7 @@ footer p {
   font-size: 24px;
   color: hsl(199, 56%, 60%);
 }
+
 /* image carousel */
 .container {
   position: relative;
@@ -102,10 +137,22 @@ footer p {
     top: 50px;
     background-color: hsl(205, 42%, 39%) !important;
   }
-  .whatis p {
+  .whatis h1 {
     color: white;
     position: absolute;
     left: 700px;
+    bottom: 0px;
+  }
+  .whatis p {
+    padding-left: 20px;
+    margin-bottom: 50px;
+    text-indent: 20px;
+    color:  hsl(205, 42%, 39%);
+    font-size: 30px;
+    position: relative;
+    bottom: 0px;
+    top: 50px;
+    
   }
 
 /* equipment bar */
@@ -160,4 +207,3 @@ footer p {
   overflow: hidden;
 }
 /* mobile */
-
