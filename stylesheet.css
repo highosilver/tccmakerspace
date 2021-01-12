@@ -42,11 +42,14 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-li {
+li  {
   font-family: 'Goldman', cursive;
   display: inline-block;
+  padding-right: 10px;
   font-size: 30px;
-  color: hsl(199, 56%, 60%) !important;
+}
+li a {
+  color: hsl(199, 56%, 60%);
 }
 li:hover {
   color: #b8b8b8;
@@ -67,7 +70,7 @@ li:hover {
 }
 /* Footer */
 footer {
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
     background-color: hsl(205, 42%, 39%);
@@ -85,11 +88,24 @@ footer p {
 .container {
   position: relative;
   top: 40px;
-  left: 300px;
+  
 }
-.carousel-inner > .item > img {
-    width:640px;
-    height:400px;
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  height: 600px;
+  }
+
+
+  .whatis {
+    font-size: 38px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    background-color: hsl(205, 42%, 39%) !important;
+  }
+  .whatis p {
+    color: white;
+    position: absolute;
+    left: 700px;
   }
 
 /* equipment bar */
@@ -144,3 +160,4 @@ footer p {
   overflow: hidden;
 }
 /* mobile */
+
