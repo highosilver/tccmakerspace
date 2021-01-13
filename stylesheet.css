@@ -13,12 +13,21 @@ html, body, form {
 header {
   height: 125px;
 }
- .wrapper {
+/* .wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto 50px; 
+  margin: 0 auto -50px; 
 }
+*/
+.content {
+  min-height: calc(100vh - 175px);
+  /* 80px header + 40px footer = 120px  */
+}
+#content {
+  padding-bottom: 100px;
+}
+/* top bar, logo, and catchphrase */
 .tccmakerspacetop{
     height: 125px;
     background-color: hsl(205, 42%, 39%); 
@@ -87,18 +96,27 @@ li:hover {
   padding-bottom: 5px;
 }
 /* Footer */
+<<<<<<< HEAD
 
  .footer, .push {
   height: 70px; 
 } 
 
+=======
+/* .footer, .push {
+  height: 50px; 
+  padding: -10px;
+}
+*/
+>>>>>>> parent of d4b50d5 (corrected non-closed wrapper div, added push class to make the footer push to the bottom of the page.)
 footer {
     height: 50px;
-    position: relative;
+    position: absolute;
     right: 0;
     bottom: 0;
     background-color: hsl(205, 42%, 39%);
     padding: 10px;
+    margin-top: 10px;
     width: 100%;
 }
 
@@ -159,7 +177,7 @@ footer a {
   }
   .whatis p {
     padding-left: 20px;
-    margin: auto;
+    margin-bottom: 50px;
     text-indent: 20px;
     color:  hsl(205, 42%, 39%);
     font-size: 30px;
