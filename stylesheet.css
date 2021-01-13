@@ -81,6 +81,7 @@ li:hover {
   position: relative;
   top: 8px;
   left: 500px;
+  margin: 0;
 }
 #tcclink {
   color: hsl(199, 58%, 58%);
@@ -89,7 +90,7 @@ li:hover {
 /* Footer */
 
  .footer, .push {
-  height: 70px; 
+  height: 0px; 
 } 
 
 footer {
@@ -136,11 +137,12 @@ footer a {
 /* image carousel */
 .container {
   position: relative;
-  top: 40px;
+  top: 0;
+  margin-top: -13px;
   
 }
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-  height: 600px;
+  height: 740px;
   }
 
 
@@ -148,23 +150,27 @@ footer a {
     font-size: 38px;
     height: 50px;
     position: relative;
-    top: 50px;
+    left: 0; 
+    width: 382px;
+    top: 37px;
     background-color: hsl(205, 42%, 39%) !important;
   }
   .whatis h1 {
+    font-size: 30px;
     color: white;
     position: absolute;
-    left: 700px;
     bottom: 0px;
   }
   .whatis p {
+    width: 350px;
+    padding-top: 20px;
     padding-left: 20px;
-    margin: auto;
     text-indent: 20px;
     color:  hsl(205, 42%, 39%);
-    font-size: 30px;
-    position: relative;
+    font-size: 20px;
+    position: absolute;
     bottom: 0px;
+    left: 0;
     top: 50px;
     
   }
