@@ -13,21 +13,12 @@ html, body, form {
 header {
   height: 125px;
 }
-/* .wrapper {
+ .wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -50px; 
+  margin: 0 auto 50px; 
 }
-*/
-.content {
-  min-height: calc(100vh - 175px);
-  /* 80px header + 40px footer = 120px  */
-}
-#content {
-  padding-bottom: 100px;
-}
-/* top bar, logo, and catchphrase */
 .tccmakerspacetop{
     height: 125px;
     background-color: hsl(205, 42%, 39%); 
@@ -97,6 +88,20 @@ li:hover {
 }
 /* Footer */
 
+ .footer, .push {
+  height: 70px; 
+} 
+
+footer {
+    height: 50px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(205, 42%, 39%);
+    padding: 10px;
+    width: 100%;
+}
+
  footer p {
   text-align: center;
   margin-bottom: -28px;
@@ -154,7 +159,7 @@ footer a {
   }
   .whatis p {
     padding-left: 20px;
-    margin-bottom: 50px;
+    margin: auto;
     text-indent: 20px;
     color:  hsl(205, 42%, 39%);
     font-size: 30px;
