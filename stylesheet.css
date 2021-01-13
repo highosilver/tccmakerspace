@@ -87,10 +87,10 @@ li:hover {
   padding-bottom: 5px;
 }
 /* Footer */
+
  .footer, .push {
   height: 70px; 
-  padding: -10px;
-}
+} 
 
 footer {
     height: 50px;
@@ -102,11 +102,35 @@ footer {
     width: 100%;
 }
 
-footer p {
+ footer p {
   text-align: center;
+  margin-bottom: -28px;
   font-family: 'Big Shoulders Stencil Text', cursive;
   font-size: 24px;
   color: hsl(199, 56%, 60%);
+} 
+footer a {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 12px;
+  position: fixed;
+  bottom: 0px;
+  color: white;
+}
+.fa-facebook {
+  color: white;
+  background-color: hsl(205, 42%, 39%);
+  position: relative;
+  left: 800px;
+  bottom: 8px;
+}
+.fa a {
+  color: white;
+  text-align: center;
+  bottom: 37px;
+  background-color: hsl(234, 78%, 51%);
+  width: 20px;
+  height: 20px;
 }
 
 /* image carousel */
