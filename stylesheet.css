@@ -89,11 +89,11 @@ li:hover {
 /* Footer */
 
  .footer, .push {
-  height: 0px; 
+  height: 8px; 
 } 
 
 footer {
-    height: 50px;
+    height: 53px;
     position: relative;
     right: 0;
     bottom: 0;
@@ -137,8 +137,7 @@ footer a {
 .container {
   position: relative;
   top: 0;
-  margin-top: -13px;
-  
+  margin-top: -65px; 
 }
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
   height: 740px;
@@ -150,8 +149,8 @@ footer a {
     height: 50px;
     position: relative;
     left: 0; 
-    width: 382px;
-    top: 37px;
+    width: 390px;
+    top: 35px;
     background-color: hsl(205, 42%, 39%) !important;
   }
   .whatis h1 {
@@ -159,8 +158,37 @@ footer a {
     color: white;
     position: absolute;
     bottom: 0px;
+    padding-left: 5px;
   }
   .whatis p {
+    width: 350px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-indent: 20px;
+    color:  hsl(205, 42%, 39%);
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    top: 50px;
+  }
+  .whois {
+    font-size: 38px;
+    height: 50px;
+    position: relative;
+    left: 1530px;
+    width: 390px;
+    bottom: 15px;
+    padding-left: 5px;
+    background-color: hsl(205, 42%, 39%) !important;
+  }
+  .whois h2 {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+  }
+  .whois p {
     width: 350px;
     padding-top: 20px;
     padding-left: 20px;
